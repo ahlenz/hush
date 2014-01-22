@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='mobile.css' media="(max-width: 480px)"/>
+  <link rel='stylesheet' type='text/css' href='desktop.css' media="(min-width: 481px)"/>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,200|Gruppo' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <nav id='topnav'>
+    <a class='topnav-btn home-btn'>home</a>
+    <a class='topnav-btn menu-btn'>menu</a>
+    <a class='topnav-btn map-btn'>location</a>
+  </nav>
+  <section id='slider' class='is-home'> 
+    <article class='view about-view'> 
+      <img class='hero' src="hush.jpg" />
+      
+    <p> HUSH is a truly innovative coffee experience dedicated to serving gourmet coffee in a high-class lounge environment. We're a full-service coffee bar specializing in creating unique coffee cocktails and putting our spin on classics like iced teas and coffees. Using only housemade ingredients, each drink is individually hand-crafted by the best baristas in the city and served to you by our world-class cocktail staff. We also boast 20 High-Definition TVs to show all the major sports games and host a DJ that transforms HUSH from a relaxing lounge during the day to an energetic club by night. Stop in for a drink, leave with an experience. </p>
+    </article>
+    <article class='view menu-view'>
+      <h1> the classics </h1>
+      <dl>
+        <dt> ristretto </dt>
+        <dt> cortado </dt>
+        <dt> cappuccino </dt>
+        <dt> latte </dt>
+        <dt> americano </dt>
+      </dl>
+      <h1> hot drinks </h1>
+      <dl>
+        <dt> vanilla latte </dt>
+        <dd> latte sweetened with housemade vanilla syrup </dd>
+        <dt> caramel latte </dt>
+        <dd> rich &amp; creamy homemade caramel folded into a 12oz latte </dd>
+        <dt> mocha latte </dt>
+        <dd> classic latte flavored with homemade dark chocolate ganache </dd>
+        <dt> creme brulee latte </dt>
+        <dd> caramel &amp; vanilla latte topped with a blowtorched sugar crust </dd>
+        <dt> chai latte </dt>
+        <dd> steamed milk &amp; spiced chai tea </dd>
+      </dl>
+      <h1> iced cocktails </h1>
+      <dl>
+        <dt> sea cliff </dt>
+        <dd> fresh squeezed lemon juice, lavender syrup, &amp; sparkling water </dd>
+        <dt> cafe sua da </dt>
+        <dd> iced toddy &amp; condensed milk </dd>
+        <dt> twin peaks </dt>
+        <dd> iced espresso, vanilla simple syrup, &amp; coconut milk </dd>
+        <dt> presidio </dt>
+        <dd> iced espresso, cinnamon, simple syrup, &amp; flamed orange zest </dd>
+        </dl>
+      <h1> signatures </h1>
+      <dl>
+        <dt> iced tea </dt>
+        <dd> cold brewed green tea with edible flower ice cubes </dd>
+        <dt> iced coffee </dt>
+        <dd> iced toddy with coffee ice cubes </dd>
+        <dt> flights </dt>
+        <dd> try 4oz of three hot drinks of your choice topped with homemade whipped cream </dd>
+        <dt> the west bay </dt>
+        <dd> triple ristretto shot, silky milk, vanilla syrup, &amp; saffron mousse completed with an edible flower </dd>
+      </dl>
+    </article>
+
+    <article class='view map-view'>
+      <img src='http://maps.googleapis.com/maps/api/staticmap?center=1700+Post+St,San+Francisco,CA&zoom=13&size=600x300&maptype=roadmap' />
+      <p>
+        1700 Post St. Lower Level B<br />
+        San Francisco, CA 94107
+      </p>
+      <a> (Open in Maps) </a> 
+    </article>
+  </section>
+  <footer class='contact-view'>
+    <a> 123-456-7890 </a>
+    <a> info@hushcoffeebar.com </a>
+  </footer>
+
+  <script src="jquery.min.js"></script>
+  <script>
+    $('.home-btn').on('touchstart click', function() {
+      $('#slider').attr('class', 'is-home');
+      $(window).scrollTop(0);
+    });
+    $('.menu-btn').on('touchstart click', function() {
+      $('#slider').attr('class', 'is-menu');
+      $(window).scrollTop(0);
+    });
+    $('.map-btn').on('touchstart click', function() {
+      $('#slider').attr('class', 'is-map');
+      $(window).scrollTop(0);
+    });
+  </script>
+</body>
+</html>
+

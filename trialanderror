@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+  
+<body id="page_body">
+
+<script>
+	
+	function changeBGImage(whichImage){
+     	document.getElementById('page_body').className="bg"+whichImage;
+	}
+
+</script>
+
+<style>
+
+	bg1 {
+	background-image: url(http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-3.jpg); 
+	}
+
+	bg2 {
+	background-image: url(http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-1.jpg);
+	}
+
+    body{
+    
+    margin: 0;
+    }
+    
+
+    header{
+    
+      background-image:url('http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-3.jpg') ;
+      background-size: cover; 
+      padding-bottom: 100px;
+      padding-top: 275px;
+      background-position: center center;
+	
+    
+    }
+    
+    h1{
+    
+      font-size: 350%;
+      text-align: center;
+      color: white;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      
+    }
+    
+    h2{
+    
+      font-size: 150%;
+      text-align: center;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    
+    
+    }
+
+   
+
+   
+   
+
+  </style> 
+</head>
+<body>
+
+  <header>
+
+   
+  
+   <h1>HUSH COFFEE BAR</h1>
+  
+   <h2>1700 Post St. Lower Lever B San Francisco, CA</h2>
+    
+  </header>
+
+</body>
+</html>

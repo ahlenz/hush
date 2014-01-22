@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+  
+<script type='text/javascript'>
+	var imageID=0;
+	function changeimage(every_seconds){
+    		
+    	if(!imageID){
+        	document.getElementById("myimage").src="http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-3.jpg";
+        imageID++;
+    	}
+    
+	else{if(imageID==1){
+        document.getElementById("myimage").src="http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-1.jpg";
+        imageID++;
+    
+
+	}else{if(imageID==2){
+        document.getElementById("myimage").src="http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-5.jpg";
+        imageID=0;
+    
+	}}}
+    	setTimeout("changeimage("+every_seconds+")",((every_seconds)*1500));
+
+	
+	}
+
+</script>
+</head>
+
+<body style='background:black;' onload='changeimage(2)'>
+<div style='position:absolute;width:100%;height:100%;left:0px;top:0px;' align='center'><img width='1700px' height='800px' id='myimage' src='http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-3.jpg'/></div>
+</body></html>
+  
+
+   <style>
+
+    body{
+    
+    margin: 0;
+    }
+    
+    header{
+    
+      background-image:url('http://hushcoffeebar.com/wp-content/uploads/2013/08/HUSH-Coffee-Bar-3d-3.jpg') ;
+      background-size: cover; 
+      padding-bottom: 100px;
+      padding-top: 275px;
+      background-position: center center;
+    
+    }
+    
+    h1{
+    
+      font-size: 350%;
+      text-align: center;
+      color: white;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      
+    }
+    
+    h2{
+    
+      font-size: 150%;
+      text-align: center;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    
+    
+    }
+
+   
+
+   
+   
+
+  </style> 
+</head>
+<body>
+
+  <header>
+
+   
+  
+   <h1>HUSH COFFEE BAR</h1>
+  
+   <h2>1700 Post St. Lower Lever B San Francisco, CA</h2>
+    
+  </header>
+
+</body>
+</html>
