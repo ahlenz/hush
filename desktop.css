@@ -25,7 +25,31 @@ body {
   cursor: pointer;
 }
 
+#slider {
+  width: 300%;
+  padding-top: 60px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  -webkit-transition: all 0.25s 0 ease-out;
+}
 
+.is-home {
+  margin-left: 0;
+  
+  margin-bottom: 0%;
+
+}
+
+.is-menu {
+  margin-left: -100%;
+  
+  background-color: #FAFAFA;
+}
+
+.is-map {
+  margin-left: -200%;
+  background-color: #FAFAFA;
+}
 
 .hero {
   width: 100%;
