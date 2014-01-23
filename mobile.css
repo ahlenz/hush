@@ -87,10 +87,15 @@ body {
   text-align: center;
 }
 
-.map{
-  align:center;
-
+.map-view {
+  text-align:center;
 }
+
+.map {
+  display:inline-block;
+}
+
+
 
 p {
   text-align: center;
