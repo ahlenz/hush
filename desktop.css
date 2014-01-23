@@ -25,24 +25,26 @@ body {
   cursor: pointer;
 }
 
-.contact-view {
-  font-family:  'Titillium Web', sans-serif;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background: #eeeeee;
-  color: #000000;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
 
-}
 
 .hero {
   width: 100%;
 }
 
+.view {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.3%;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  border: solid 1px red;
+  white-space: normal;
+}
 
+.menu-view {
+  text-align: center;
+}
 
 p {
   text-align: center;
