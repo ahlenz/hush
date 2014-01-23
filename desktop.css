@@ -24,3 +24,33 @@ body {
 .hero {
   width: 100%;
 }
+
+
+p {
+  text-align: center;
+  font-family:'Gruppo', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+dt {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: #3B3B3B;
+}
+
+dd {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  color: #515151;
+}
