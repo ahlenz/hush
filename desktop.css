@@ -25,27 +25,24 @@ body {
   cursor: pointer;
 }
 
+.contact-view {
+  font-family:  'Titillium Web', sans-serif;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #eeeeee;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
 .hero {
   width: 100%;
 }
 
-.is-home {
-  margin-left: 0;
-  
-  margin-bottom: 0%;
 
-}
-
-.is-menu {
-  margin-left: -100%;
-  
-  background-color: #FAFAFA;
-}
-
-.is-map {
-  margin-left: -200%;
-  background-color: #FAFAFA;
-}
 
 p {
   text-align: center;
