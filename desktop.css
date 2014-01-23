@@ -25,6 +25,18 @@ body {
   cursor: pointer;
 }
 
+.contact-view {
+  font-family:  'Titillium Web', sans-serif;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #eeeeee;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 #slider {
   width: 300%;
   padding-top: 60px;
@@ -75,7 +87,6 @@ p {
   font-family:'Gruppo', cursive;
   font-weight: 400;
   font-size: 20px;
-  
 }
 
 h1 {
