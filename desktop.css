@@ -8,23 +8,44 @@ body {
   
 }
 
-#topnav{
+#topnav {
   text-align: center;
   padding: 20px 0px;
 }
 
 .topnav-btn {
+  font-family:  'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   display: inline-block;
   text-align: center;
   padding: 20px 50px;
   border: solid 1px red;
   margin: 0px 125px;
+  cursor: pointer;
 }
 
 .hero {
   width: 100%;
 }
 
+.is-home {
+  margin-left: 0;
+  
+  margin-bottom: 0%;
+
+}
+
+.is-menu {
+  margin-left: -100%;
+  
+  background-color: #FAFAFA;
+}
+
+.is-map {
+  margin-left: -200%;
+  background-color: #FAFAFA;
+}
 
 p {
   text-align: center;
