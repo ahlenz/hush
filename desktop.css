@@ -12,6 +12,12 @@ body {
 #topnav {
   text-align: center;
   padding: 20px 0px;
+  position: fixed; 
+  left: 0;
+  right: 0;
+  top: 0;
+  background: white;
+  box-shadow: 0 1px 30px rgba(0,0,0,0.5)
 }
 
 .topnav-btn {
@@ -38,14 +44,6 @@ body {
   padding-top: 10px;
 }
 
-#slider {
-  width: 300%;
-  padding-top: 60px;
-  white-space: nowrap;
-  overflow-x: hidden;
-  -webkit-transition: all 0.25s 0 ease-out;
-}
-
 .is-home {
   margin-left: 0;
   
@@ -69,12 +67,10 @@ body {
 }
 
 .view {
-  display: inline-block;
   vertical-align: top;
-  width: 33.3%;
   padding-left: 10px;
   padding-right: 10px;
-  overflow: hidden;
+  padding-top: 100px;
   border: solid 1px red;
   white-space: normal;
 }
