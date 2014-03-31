@@ -49,14 +49,11 @@ body {
 
 .is-home {
   margin-left: 0;
-  
   margin-bottom: 0%;
-
 }
 
 .is-menu {
   margin-left: -100%;
-  
   background-color: #FAFAFA;
 }
 
@@ -73,7 +70,7 @@ body {
   vertical-align: top;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 100px;
+  padding-top: 75px;
   white-space: normal;
 }
 
