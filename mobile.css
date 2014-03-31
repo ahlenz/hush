@@ -76,7 +76,7 @@ body {
 .announcement{
   text-transform: uppercase;
   text-align: center;
-  font-size: 32px;
+  font-size: 20px;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 1);
   color: white; 
   padding-top: 90px;
