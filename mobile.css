@@ -70,8 +70,8 @@ body {
 
 .view {
   vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 100px;
   white-space: normal;
 }
