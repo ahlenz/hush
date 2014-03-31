@@ -114,7 +114,9 @@ p {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
+  color: #444;
+  padding: 10px 30px;
 }
 
 h1 {
