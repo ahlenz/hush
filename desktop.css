@@ -108,6 +108,13 @@ body {
   white-space: normal;
 }
 
+.category {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-right: 6%;
+}
+
 .menu-view {
   text-align: left;
 
