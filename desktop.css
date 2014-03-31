@@ -73,6 +73,10 @@ body {
   margin: 0;
 }
 
+.anouncement{
+  
+}
+
 .view {
   vertical-align: top;
   padding-left: 10px;
@@ -92,8 +96,8 @@ body {
 .map {
   display:inline-block;
   text-align: center;
-
 }
+
 
 
 p {
