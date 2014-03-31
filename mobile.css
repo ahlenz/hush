@@ -21,10 +21,10 @@ body {
   white-space: nowrap;
   overflow: hidden;
 
-  background: -webkit-linear-gradient(gray, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(gray, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(gray, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(silver, white); /* Standard syntax */
+  background: -webkit-linear-gradient(#C0C0C0, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#C0C0C0, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#C0C0C0, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#C0C0C0, white); /* Standard syntax */
 }
 
 .topnav-btn {
@@ -100,6 +100,7 @@ body {
   text-align: left;
   padding-right: 10px;
   padding-left: 10px;
+  
 }
 
 .map-view {
