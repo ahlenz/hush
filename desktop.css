@@ -21,6 +21,11 @@ body {
   box-shadow: 0 1px 30px rgba(0,0,0,0.5);
   white-space: nowrap;
   overflow: hidden;
+
+  background: -webkit-linear-gradient(#C0C0C0, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#C0C0C0, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#C0C0C0, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#C0C0C0, white); /* Standard syntax */
 }
 
 .topnav-btn {
@@ -62,15 +67,22 @@ body {
   background-color: #FAFAFA;
 }
 
+.is-events {
+
+
+}
+
 .is-map {
   margin-left: -200%;
   background-color: #FAFAFA;
 }
 
+
+
 .hero {
   width: 100%;
   background: url('hush.jpg') no-repeat center center;
-  height: 400px;
+  height: 500px;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -79,12 +91,12 @@ body {
 .announcement {
   text-transform: uppercase;
   text-align: center;
-  font-size: 32px;
+  font-size: 50px;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 1);
   color: white; 
   padding-top: 150px;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 400;  
+  font-weight: 300;  
 }
 
 
@@ -105,15 +117,26 @@ body {
   text-align:center;
 }
 
+.events-view {
+  text-align: left;
+}
+
 .map {
   display:inline-block;
   text-align: center;
 }
 
-
+.address {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444;
+  padding: 10px 30px;
+}
 
 p {
-  text-align: center;
+  text-align: left;
   font-family: 'Titillium Web', arial;
   font-weight: 400;
   font-size: 16px;
@@ -122,7 +145,7 @@ p {
 
 h1 {
   font-family: 'Titillium Web', arial;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 24px;
   text-transform: uppercase;
 }
