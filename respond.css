@@ -12,7 +12,7 @@
   .menu {
     background: url('latteleaf.jpg') no-repeat right -150px top -90px;
   }
-  .logo { width: 40%; }
+  .logo { width: 40%; text-align: left; }
   .nav { width: 20%; }
 }
 
