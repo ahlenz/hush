@@ -4,6 +4,8 @@
 
 .event-image { display: none; }
 
+.main-nav { background: #000; }
+
 @media only screen and (min-width: 34em) {
   .feature, .info { width: 50%; }
 }
@@ -12,8 +14,9 @@
   .menu {
     background: url('latteleaf.jpg') no-repeat right -150px top -90px;
   }
-  .logo { width: 40%; text-align: left; }
-  .nav { width: 20%; }
+  .logo { width: 55%; text-align: left; }
+  .nav { width: 15%; }
+  .main-nav { background: transparent; }
 }
 
 @media only screen and (min-width: 800px) {
@@ -33,7 +36,7 @@
 
 @media only screen and (min-width: 1200px) {
   .menu {
-    background: 
+    background:
       url('latteleaf.jpg') no-repeat left -90px bottom -60px,
       url('orangedrink.jpg') no-repeat right -180px top -60px;
   }
