@@ -18,6 +18,8 @@
     /* you only need width to set up columns; all columns are 100%-width by default, so we start
        from a one-column mobile layout and gradually improve it according to available screen space */
 
+  .event-image { display: none; }
+
     @media only screen and (min-width: 34em) {
       .feature, .info { width: 50%; }
     }
@@ -31,8 +33,11 @@
       .menu-list { width: 25%; }
       .menu-photos { width: 20%; }
       .info    { width: 50%;    }
-      .event-image { width: 50%; }
+      .event-image { display: block; width: 50%; }
       .event-list { width: 50%; }
+      .map { width: 50%; }
+      .address { width: 25%; }
+      .contact { width: 25%; }
     }
   </style>
 
@@ -127,7 +132,7 @@
   <section class='row col events inverted drop'>
     <div class='wrap'>
       <article class='col event-image'>
-        <img src='irish-cream.jpg' width='452' height='645' />
+        <img src='irish-cream.jpg' width='452' />
       </article>
       <article class='col event-list'>
         <h1> Events</h1>
@@ -139,6 +144,36 @@
           <dt> Grand Opening!</dt>
           <dd> Join us April 18th from 12-4pm for our Launch Party! Come try our signature drinks while we give away free Hush merchandise! Meet the Hush Girls and have fun with us and our live DJ! Don't miss out on this special event!</dd>
         </dl>
+      </article>
+    </div>
+  </section>
+
+  <section class='row col location drop push'>
+    <div class='wrap'>
+      <article class='col address'>
+        <h1>Find us here!</h1>
+        <p>
+          1700 Post St. Lower Level B<br />
+          San Francisco, CA 94115
+        </p>
+        <p>Sun-Sat 7:00am-11:00pm</p>
+      </article>
+      <article class='col contact'>
+        <h1>Get in touch</h1>
+        <ul>
+          <li><a href='tel:4152302730'>415 230 2730</a></li>
+          <li><a href='mailto:info@hushcoffeebar.com'>info@hushcoffeebar.com</a></li>
+        </ul>
+        <p class="social">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ahlenz.github.io/hush" data-text="Hush Coffee Bar." data-related="Coffee">Tweet</a>
+        </p>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </article>
+      <article class='col map'>
+        <a href="http://goo.gl/maps/YfPfP"> 
+          <img src="http://maps.googleapis.com/maps/api/staticmap?markers=1700+Post+St,San+Francisco,CA&amp;zoom=14&amp;size=400x400&amp;sensor=false"> 
+          <alt="map">
+        </a>
       </article>
     </div>
   </section>
@@ -166,11 +201,6 @@ has only two classes (<code>row</code> and <code>col</code>), fluid columns with
       <h3>And One Last Thing</h3>
 
       <p>Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-      <p class="social">
-        
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ahlenz.github.io/hush" data-text="Hush Coffee Bar." data-related="Coffee">Tweet</a>
-        </p>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       
     </div>
 
