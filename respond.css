@@ -1,0 +1,40 @@
+.wrap { max-width: 940px; }
+/* you only need width to set up columns; all columns are 100%-width by default, so we start
+   from a one-column mobile layout and gradually improve it according to available screen space */
+
+.event-image { display: none; }
+
+@media only screen and (min-width: 34em) {
+  .feature, .info { width: 50%; }
+}
+
+@media only screen and (min-width: 500px) {
+  .menu {
+    background: url('latteleaf.jpg') no-repeat right -150px top -90px;
+  }
+  .logo { width: 40%; }
+  .nav { width: 20%; }
+}
+
+@media only screen and (min-width: 800px) {
+  .menu-content { width: 80%; }
+  .menu-list { width: 25%; }
+  .menu-photos { width: 20%; }
+  .info    { width: 50%;    }
+  .event-image { display: block; width: 50%; }
+  .event-list { width: 50%; }
+  .map { width: 50%; }
+  .address { width: 25%; }
+  .contact { width: 25%; }
+  .menu {
+    background: url('latteleaf.jpg') no-repeat left -90px bottom -60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .menu {
+    background: 
+      url('latteleaf.jpg') no-repeat left -90px bottom -60px,
+      url('orangedrink.jpg') no-repeat right -180px top -60px;
+  }
+}

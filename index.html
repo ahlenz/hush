@@ -6,47 +6,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 
-  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,200|Gruppo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200|Gruppo' rel='stylesheet' type='text/css'>
 
   <!-- a grid framework in 250 bytes? are you kidding me?! -->
   <link rel="stylesheet" href="grid.css">
-
-  <!-- all the important responsive layout stuff -->
-  <style>
-
-  .wrap { max-width: 940px; }
-    /* you only need width to set up columns; all columns are 100%-width by default, so we start
-       from a one-column mobile layout and gradually improve it according to available screen space */
-
-  .event-image { display: none; }
-
-    @media only screen and (min-width: 34em) {
-      .feature, .info { width: 50%; }
-    }
-
-    @media only screen and (min-width: 54em) {
-      
-    }
-
-    @media only screen and (min-width: 800px) {
-      .menu-content { width: 80%; }
-      .menu-list { width: 25%; }
-      .menu-photos { width: 20%; }
-      .info    { width: 50%;    }
-      .event-image { display: block; width: 50%; }
-      .event-list { width: 50%; }
-      .map { width: 50%; }
-      .address { width: 25%; }
-      .contact { width: 25%; }
-    }
-  </style>
-
   <link rel='stylesheet' href='global.css'>
+  <link rel='stylesheet' href='respond.css'>
 
 </head>
 <body>
 
 <div class="container">
+
+  <header class='row col header'>
+    <div class='wrap'>
+      <div class='row'>
+        <div class='col logo'><img src='logo-outline.png' /></div>
+        <div class='col nav'><a href='#menu' class='first'>Menu</a></div>
+        <div class='col nav'><a href='#events'>Events</a></div>
+        <div class='col nav'><a href='#location'>Location</a></div>
+      </div>
+    </div>
+  </header>
 
   <section class='row col hero'>
     <article class='wrap announcement'>
@@ -68,6 +49,7 @@
   </section>
 
   <section class='row col menu push'>
+    <a name='menu' />
     <div class='wrap'>
       <div class='row'>
         <article class='col menu-list'>
@@ -129,7 +111,8 @@
     </div>
   </section>
 
-  <section class='row col events inverted drop'>
+  <section class='row col events inverted drop push'>
+    <a name='events' />
     <div class='wrap'>
       <article class='col event-image'>
         <img src='irish-cream.jpg' width='452' />
@@ -148,7 +131,21 @@
     </div>
   </section>
 
+  <section class='row col survey drop push'>
+    <a name='survey' />
+    <div class='wrap'>
+      <div class='col'>
+        <h1>Get 50% off your next drink!</h1>
+        <p>
+          We want your opinion. What's good, what's bad, what's whatever?
+          <a href='#'>Take our quiz</a> and get a drink half-off the next time you visit Hush.
+        </p> 
+      </div>
+    </div>
+  </section>
+
   <section class='row col location drop push'>
+    <a name='location' />
     <div class='wrap'>
       <article class='col address'>
         <h1>Find us here!</h1>
@@ -178,35 +175,6 @@
     </div>
   </section>
 
-  <div class="row">
-    <div class="col content">
-      <h2>As Simple As Responsive Grids Get</h2>
-      <p class="desc">A demo of <em>Dead Simple Grid</em> by <a href="http://agafonkin.com/en">Vladimir Agafonkin</a>. <em>View the source</em> and <a href="http://github.com/mourner/dead-simple-grid">check it out on GitHub</a>!</p>
-
-      <p class="intro">Dead Simple Grid is a responsive CSS grid micro framework that is just that. Dead simple. It's the <em>Malevich's Black Square</em> of grid frameworks. It is <em>tiny</em> (about 250 bytes of CSS) and without dependencies,
-has only two classes (<code>row</code> and <code>col</code>), fluid columns with <em>fixed gutters</em>, supports <em>infinite nesting</em>, and doesn't constrain you to any column sets or media query breakpoints. It embraces concepts of progressive enhancement and mobile first, serving one-column mobile layout to older browsers (IE 6-7). IE 8 is supported if you use <a href="https://github.com/scottjehl/Respond">Respond.js</a></p>
-
-      <div class="row">
-        <div class="col feature">
-          <h4>Feature Block One</h4>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </div>
-
-        <div class="col feature">
-          <h4>Feature Block Two</h4>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-        </div>
-      </div>
-
-      <h3>And One Last Thing</h3>
-
-      <p>Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-      
-    </div>
-
-
-  </div>
 </div>
-
 </body>
 </html>

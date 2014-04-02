@@ -74,9 +74,50 @@ li {
   max-width: 940px;
 }
 
+.header {
+  background: #000;
+  line-height: 1px;
+}
+
+.logo {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo img {
+  display: inline-block;
+}
+
+.nav {
+  height: 62px;
+  padding: 0;
+  text-align: center;
+}
+
+.nav a {
+  font-family: 'Titillium Web', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 400;
+  display: block;
+  padding-top: 22px;
+  border-right: solid 1px rgba(255, 255, 255, 0.25);
+  height: 100%;
+}
+
+.nav a.first {
+  border-left: solid 1px rgba(255, 255, 255, 0.25);
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
 .hero {
   background: url('hush.jpg') no-repeat center center;
-  height: 500px;
+  min-height: 500px;
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -95,7 +136,7 @@ li {
 }
 
 .intro {
-  background: #222;
+  background: #111;
   color: #ccc;
 }
 
@@ -108,7 +149,7 @@ li {
 }
 
 .location {
-  background: #ccc;
+  background: #ddd;
 }
 
 .map a {
@@ -119,4 +160,8 @@ li {
 .map a, .map img {
   display: block;
   width: 100%;
+}
+
+.menu {
+  background: #fff;
 }
