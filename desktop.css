@@ -113,6 +113,7 @@ body {
   vertical-align: top;
   width: 40%;
   margin-right: 6%;
+  border-right: solid 1px #eee;
 }
 
 .menu-view {
@@ -121,11 +122,11 @@ body {
 }
 
 .map-view {
-  text-align:center;
+  text-align:left; 
 }
 
 .events-view {
-  text-align: left;
+  text-align: center;
 }
 
 .map {
@@ -133,26 +134,34 @@ body {
   text-align: center;
 }
 
+.map-box {
+display: inline-block;
+vertical-align: top;
+border: 3px solid #000000;
+
+}
+
 .address {
-  text-align: center;
+  text-align: left;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #444;
-  padding: 10px 30px;
+  padding: 5px 30px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 p {
   text-align: left;
   font-family: 'Titillium Web', arial;
   font-weight: 400;
-  font-size: 16px;
-  
+  font-size: 16px; 
 }
 
 h1 {
   font-family: 'Titillium Web', arial;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
 }
