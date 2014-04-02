@@ -16,17 +16,15 @@ body {
 }
 
 h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
   font-size: 2rem;
   line-height: 1;
   color: #000;
 }
 
-h1.inverted {
+.inverted h1 {
   color: #fff;
-}
-
-p {
-  margin: 20px 0 40px 0;
 }
 
 dt {
@@ -38,8 +36,24 @@ dt {
 dd {
   margin: 0;
   font-size: 0.9rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #666;
+}
+
+.inverted dt {
+  color: #fff;
+}
+
+.inverted dd {
+  color: #888;
+}
+
+.push {
+  padding-bottom: 30px;
+}
+
+.drop {
+  padding-top: 40px;
 }
 
 .container {
@@ -68,10 +82,14 @@ dd {
   color: white; 
   padding-top: 150px;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;  
+  font-weight: 200;  
 }
 
 .intro {
   background: #222;
   color: #ccc;
+}
+
+.events {
+  background: #000;
 }
